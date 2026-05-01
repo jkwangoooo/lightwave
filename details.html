@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>光波社群业务总览</title>
+    <meta
+      name="description"
+      content="光波社群业务板块静态 H5 展示页，集中展示免费体验、夏季特推项目、社群权益与可代理项目。"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./details.css" />
+  </head>
+  <body class="details-body">
+    <canvas id="silk-fluid" aria-hidden="true"></canvas>
+    <main class="details-page" id="top">
+      <header class="details-hero">
+        <a class="back-link" href="./index.html">返回首页</a>
+        <div class="details-hero__center">
+          <h1>光 波 社 区</h1>
+          <p>— 微光成炬  ·  彼此照亮 —</p>
+        </div>
+      </header>
+
+      <nav class="details-nav" aria-label="板块导航">
+        <a href="#free">免费体验</a>
+        <a href="#summer-project">夏季特推</a>
+        <a href="#community">光波社群</a>
+        <a href="#agency">可代理项目</a>
+      </nav>
+
+      <section class="details-section" id="free">
+        <div class="section-topline">
+          <div>
+            <p>体验篇</p>
+            <h2>免费体验 —— 高考志愿项目引入篇</h2>
+          </div>
+          <span>01</span>
+        </div>
+
+        <div class="two-column">
+          <article class="glass-panel glass-panel--large">
+            <span class="tag">免费线索入口</span>
+            <h3>直播版软件 / 网页</h3>
+            <p>作为最轻量的进入方式，先让用户看到工具入口，再把体验延展到后续项目和服务。</p>
+            <div class="inline-chip">高考志愿 QuickPlan 版本</div>
+          </article>
+
+          <article class="glass-panel">
+            <span class="tag">直播入门</span>
+            <h3>课程：第一场直播干什么？</h3>
+            <p>用一节足够直接的课程，帮第一次进入直播的人快速知道起步动作。</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="details-section details-section--spotlight" id="summer-project">
+        <div class="section-topline section-topline--spotlight">
+          <div>
+            <p>夏季特推项目</p>
+            <h2>AI 高考志愿填报</h2>
+          </div>
+          <span>02</span>
+        </div>
+
+        <div class="spotlight-lead">
+          <p class="spotlight-copy">这是当前最适合夏季快速成交的单品入口，也会和社群权益、代理合作形成互相承接的路径。</p>
+          <aside class="price-card">
+            <span>项目定价</span>
+            <strong>398 元</strong>
+            <a href="#summer-project">详见项目介绍页</a>
+          </aside>
+        </div>
+      </section>
+
+      <section class="details-section details-section--community" id="community">
+        <div class="section-topline">
+          <div>
+            <p>长期社群</p>
+            <h2>光波社群</h2>
+          </div>
+          <span>03</span>
+        </div>
+
+        <div class="community-lead">
+          <p>这不是一次性的课程清单，而是一套围绕直播、引流、私域、项目落地和持续协作展开的长期陪跑体系。</p>
+          <div class="price-card price-card--compact" aria-label="光波社群定价">
+            <span>社群定价</span>
+            <strong>800 元</strong>
+          </div>
+        </div>
+
+        <div class="community-grid">
+          <article class="glass-panel glass-panel--wide">
+            <span class="tag">附赠项目</span>
+            <h3>AI 高考志愿填报</h3>
+            <p>社群内直接附赠夏季特推项目，形成社群权益和单品成交之间的双向承接。</p>
+            <a href="#summer-project">详见项目介绍页</a>
+          </article>
+
+          <article class="glass-panel">
+            <span class="tag">直播能力</span>
+            <h3>2026 直播玩法</h3>
+            <ul>
+              <li>不限平台</li>
+              <li>直播陪跑，不限类目 / 不限类型</li>
+            </ul>
+          </article>
+
+          <article class="glass-panel">
+            <span class="tag">引流与私域</span>
+            <h3>方法论沉淀</h3>
+            <ul>
+              <li>小红书图文引流方法论</li>
+              <li>私域运营从零到一</li>
+            </ul>
+          </article>
+
+          <article class="glass-panel">
+            <span class="tag">项目闭环</span>
+            <h3>搭建属于自己的<br />生意路径</h3>
+            <ul>
+              <li>搭建属于自己的项目</li>
+              <li>使用 vibecoding 搭建自己的生意小闭环</li>
+            </ul>
+          </article>
+
+          <article class="glass-panel glass-panel--wide">
+            <span class="tag">社群机制</span>
+            <h3>一个永不解散<br />持续迭代的社群</h3>
+            <p>核心价值不是单次信息交付，而是不断更新、复盘、连接资源和长期同行。</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="details-section" id="agency">
+        <div class="section-topline">
+          <div>
+            <p>合作方式</p>
+            <h2>可代理项目</h2>
+          </div>
+          <span>04</span>
+        </div>
+
+        <div class="agency-layout">
+          <article class="glass-panel">
+            <span class="tag">社群名额</span>
+            <h3>社群代理</h3>
+            <div class="metric-row">
+              <div>
+                <span>定价</span>
+                <strong>800</strong>
+              </div>
+              <div>
+                <span>分润</span>
+                <strong>200</strong>
+              </div>
+            </div>
+          </article>
+
+          <article class="glass-panel glass-panel--large">
+            <div class="panel-head">
+              <span class="tag">AI 高考志愿填报</span>
+            </div>
+            <h3>项目代理矩阵</h3>
+            <div class="deal-list">
+              <article>
+                <p>课程</p>
+                <span>定价 398 / 分润 100</span>
+              </article>
+              <article>
+                <p>志愿报告经销</p>
+                <span>代理价：6 元 / 份</span>
+              </article>
+              <article>
+                <p>AI 志愿系统经销</p>
+                <span>网页版开发中</span>
+              </article>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <aside class="validity-note" aria-label="定价有效期">
+        当前页面定价信息有效期截止至：2026年5月10日 00:00
+      </aside>
+
+      <footer class="details-footer">
+        <a href="#top">回到顶部</a>
+      </footer>
+    </main>
+    <script src="./fluid-silk.js"></script>
+  </body>
+</html>
